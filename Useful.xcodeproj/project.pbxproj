@@ -16,6 +16,7 @@
 		2016811F1989F69A00C41967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2016811E1989F69A00C41967 /* AppDelegate.m */; };
 		201681221989F69A00C41967 /* Useful.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 201681201989F69A00C41967 /* Useful.xcdatamodeld */; };
 		201681241989F69A00C41967 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201681231989F69A00C41967 /* Images.xcassets */; };
+		201B5D13199461D90008FA89 /* threadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B5D12199461D90008FA89 /* threadTest.m */; };
 		20E7B612198F27600053B53E /* NSDate+DateToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E7B607198F27600053B53E /* NSDate+DateToString.m */; };
 		20E7B613198F27600053B53E /* NSObject+DynamicTextHight.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E7B609198F27600053B53E /* NSObject+DynamicTextHight.m */; };
 		20E7B614198F27600053B53E /* UIColor+ColorWithHexValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E7B60B198F27600053B53E /* UIColor+ColorWithHexValue.m */; };
@@ -23,6 +24,7 @@
 		20E7B616198F27600053B53E /* UIImage+PureColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E7B60F198F27600053B53E /* UIImage+PureColor.m */; };
 		20E7B617198F27600053B53E /* UITableViewCell+CellImageAndSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E7B611198F27600053B53E /* UITableViewCell+CellImageAndSize.m */; };
 		20E7B61A198F27870053B53E /* UIView+addShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E7B619198F27870053B53E /* UIView+addShadow.m */; };
+		20E7B624198F77CA0053B53E /* ImageFullscreenViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E7B623198F77CA0053B53E /* ImageFullscreenViewer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,9 +42,8 @@
 		201681211989F69A00C41967 /* Useful.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Useful.xcdatamodel; sourceTree = "<group>"; };
 		201681231989F69A00C41967 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2016812A1989F69A00C41967 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		201681331989F69A00C41967 /* UsefulTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UsefulTests-Info.plist"; sourceTree = "<group>"; };
-		201681351989F69A00C41967 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		201681371989F69A00C41967 /* UsefulTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsefulTests.m; sourceTree = "<group>"; };
+		201B5D11199461D90008FA89 /* threadTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threadTest.h; sourceTree = "<group>"; };
+		201B5D12199461D90008FA89 /* threadTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threadTest.m; sourceTree = "<group>"; };
 		20E7B606198F27600053B53E /* NSDate+DateToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateToString.h"; sourceTree = "<group>"; };
 		20E7B607198F27600053B53E /* NSDate+DateToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateToString.m"; sourceTree = "<group>"; };
 		20E7B608198F27600053B53E /* NSObject+DynamicTextHight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DynamicTextHight.h"; sourceTree = "<group>"; };
@@ -57,6 +58,8 @@
 		20E7B611198F27600053B53E /* UITableViewCell+CellImageAndSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+CellImageAndSize.m"; sourceTree = "<group>"; };
 		20E7B618198F27870053B53E /* UIView+addShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+addShadow.h"; sourceTree = "<group>"; };
 		20E7B619198F27870053B53E /* UIView+addShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+addShadow.m"; sourceTree = "<group>"; };
+		20E7B622198F77CA0053B53E /* ImageFullscreenViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFullscreenViewer.h; sourceTree = "<group>"; };
+		20E7B623198F77CA0053B53E /* ImageFullscreenViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFullscreenViewer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				201681141989F69A00C41967 /* Useful */,
-				201681311989F69A00C41967 /* UsefulTests */,
 				2016810B1989F69A00C41967 /* Frameworks */,
 				2016810A1989F69A00C41967 /* Products */,
 			);
@@ -107,6 +109,7 @@
 		201681141989F69A00C41967 /* Useful */ = {
 			isa = PBXGroup;
 			children = (
+				201B5D101994619E0008FA89 /* Test */,
 				20E7B604198F27600053B53E /* Code */,
 				2016811D1989F69A00C41967 /* AppDelegate.h */,
 				2016811E1989F69A00C41967 /* AppDelegate.m */,
@@ -128,27 +131,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		201681311989F69A00C41967 /* UsefulTests */ = {
+		201B5D101994619E0008FA89 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				201681371989F69A00C41967 /* UsefulTests.m */,
-				201681321989F69A00C41967 /* Supporting Files */,
+				201B5D11199461D90008FA89 /* threadTest.h */,
+				201B5D12199461D90008FA89 /* threadTest.m */,
 			);
-			path = UsefulTests;
-			sourceTree = "<group>";
-		};
-		201681321989F69A00C41967 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				201681331989F69A00C41967 /* UsefulTests-Info.plist */,
-				201681341989F69A00C41967 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = Test;
 			sourceTree = "<group>";
 		};
 		20E7B604198F27600053B53E /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				20E7B621198F77CA0053B53E /* Class */,
 				20E7B605198F27600053B53E /* Category */,
 			);
 			path = Code;
@@ -173,6 +168,15 @@
 				20E7B619198F27870053B53E /* UIView+addShadow.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		20E7B621198F77CA0053B53E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				20E7B622198F77CA0053B53E /* ImageFullscreenViewer.h */,
+				20E7B623198F77CA0053B53E /* ImageFullscreenViewer.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +249,10 @@
 				20E7B613198F27600053B53E /* NSObject+DynamicTextHight.m in Sources */,
 				20E7B612198F27600053B53E /* NSDate+DateToString.m in Sources */,
 				20E7B616198F27600053B53E /* UIImage+PureColor.m in Sources */,
+				201B5D13199461D90008FA89 /* threadTest.m in Sources */,
 				2016811B1989F69A00C41967 /* main.m in Sources */,
 				20E7B615198F27600053B53E /* UIFont+FontSizeOfPX.m in Sources */,
+				20E7B624198F77CA0053B53E /* ImageFullscreenViewer.m in Sources */,
 				20E7B617198F27600053B53E /* UITableViewCell+CellImageAndSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,14 +264,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				201681181989F69A00C41967 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		201681341989F69A00C41967 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				201681351989F69A00C41967 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

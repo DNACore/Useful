@@ -14,4 +14,15 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
+
+//常用的宏
+#define AppVer [[[NSBundle mainBundle] infoDictionary] objectForKey:(NSString *)kCFBundleVersionKey]
+#define SysVer [[[UIDevice currentDevice] systemVersion] floatValue]
+#define IsIOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >=7.0 ? YES : NO)
+#define isLongLCD  [UIScreen mainScreen].bounds.size.height > 500
+#define viewBackgroundColor [UIColor colorWithRed:240/255.0 green:240/255.0 blue:240/255.0 alpha:1]
+#define basicBlueColor [UIColor colorWithRed:0 green:167/255.0 blue:241/255.0 alpha:1]
+#define textGrayColor [UIColor colorWithRed:156/255.0 green:156/255.0 blue:156/255.0 alpha:1]
+
+
 #endif
