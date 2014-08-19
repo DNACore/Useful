@@ -17,6 +17,7 @@
 		201681221989F69A00C41967 /* Useful.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 201681201989F69A00C41967 /* Useful.xcdatamodeld */; };
 		201681241989F69A00C41967 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201681231989F69A00C41967 /* Images.xcassets */; };
 		201B5D13199461D90008FA89 /* threadTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 201B5D12199461D90008FA89 /* threadTest.m */; };
+		209C79DF19A361B90089E1E6 /* NSNumber+NumberWithString.m in Sources */ = {isa = PBXBuildFile; fileRef = 209C79DE19A361B90089E1E6 /* NSNumber+NumberWithString.m */; };
 		20E7B612198F27600053B53E /* NSDate+DateToString.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E7B607198F27600053B53E /* NSDate+DateToString.m */; };
 		20E7B613198F27600053B53E /* NSObject+DynamicTextHight.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E7B609198F27600053B53E /* NSObject+DynamicTextHight.m */; };
 		20E7B614198F27600053B53E /* UIColor+ColorWithHexValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E7B60B198F27600053B53E /* UIColor+ColorWithHexValue.m */; };
@@ -44,6 +45,8 @@
 		2016812A1989F69A00C41967 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		201B5D11199461D90008FA89 /* threadTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threadTest.h; sourceTree = "<group>"; };
 		201B5D12199461D90008FA89 /* threadTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threadTest.m; sourceTree = "<group>"; };
+		209C79DD19A361B90089E1E6 /* NSNumber+NumberWithString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+NumberWithString.h"; sourceTree = "<group>"; };
+		209C79DE19A361B90089E1E6 /* NSNumber+NumberWithString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+NumberWithString.m"; sourceTree = "<group>"; };
 		20E7B606198F27600053B53E /* NSDate+DateToString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DateToString.h"; sourceTree = "<group>"; };
 		20E7B607198F27600053B53E /* NSDate+DateToString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DateToString.m"; sourceTree = "<group>"; };
 		20E7B608198F27600053B53E /* NSObject+DynamicTextHight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DynamicTextHight.h"; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 				20E7B611198F27600053B53E /* UITableViewCell+CellImageAndSize.m */,
 				20E7B618198F27870053B53E /* UIView+addShadow.h */,
 				20E7B619198F27870053B53E /* UIView+addShadow.m */,
+				209C79DD19A361B90089E1E6 /* NSNumber+NumberWithString.h */,
+				209C79DE19A361B90089E1E6 /* NSNumber+NumberWithString.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -248,6 +253,7 @@
 				2016811F1989F69A00C41967 /* AppDelegate.m in Sources */,
 				20E7B613198F27600053B53E /* NSObject+DynamicTextHight.m in Sources */,
 				20E7B612198F27600053B53E /* NSDate+DateToString.m in Sources */,
+				209C79DF19A361B90089E1E6 /* NSNumber+NumberWithString.m in Sources */,
 				20E7B616198F27600053B53E /* UIImage+PureColor.m in Sources */,
 				201B5D13199461D90008FA89 /* threadTest.m in Sources */,
 				2016811B1989F69A00C41967 /* main.m in Sources */,
